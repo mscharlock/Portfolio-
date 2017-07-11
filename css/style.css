@@ -1,0 +1,9 @@
+.nav li {
+  display: inline-block;
+  text-decoration: none;
+  float: right;
+}
+
+body {
+  background-color: lightgrey;
+}
