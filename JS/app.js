@@ -8,4 +8,18 @@ function projWheel(projThumbnail, projUrl, title) {
   this.title = title;
   myProjects.push(this);
 }
+
+projWheel.prototype.toHtml = function() {
+  var $newmyProjects = $('proj').clone();
+  $newmyProjects.removeClass('proj');
+}
+
+
+
+
+
+
+
+
+
 projWheel();
