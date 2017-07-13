@@ -5,16 +5,17 @@
 /*#F7CE3E marigold*/
 
 body {
-  background-color: #F7CE3E;
+  background-color: #C5C1C0;
   max-width: 100%;
   text-align: center;
 }
 
-.myNav a {
+/*.myNav a {
   color: green;
-}
+}*/
 
 .myNav li {
+  color: #1A2930;
   display: inline-block;
   text-decoration: none;
   border: 2px solid orange;
@@ -24,7 +25,7 @@ body {
 
 .one {
 
-  background-color: #C5C1C0;
+  background-color: #F7CE3E;
   color: white;
   position: relative;
   width: 70%;
@@ -36,6 +37,7 @@ body {
 }
 .two {
   width: 100%;
+  background-image: url("imgs/jesus-kiteque-224069.jpg")
   /*height: 20px;*/
   position: relative;
   /*font-size: 20px;*/
@@ -67,6 +69,7 @@ body {
 .five {
   background-color: *#233237;
   position: relative;
+  height: 10em;
   width: 100%;
   font-size: 19px;
   border: 2px solid orange;
