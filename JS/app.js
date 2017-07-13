@@ -22,4 +22,4 @@ projWheel.prototype.toHtml = function() {
 
 
 
-projWheel();
+// projWheel();
