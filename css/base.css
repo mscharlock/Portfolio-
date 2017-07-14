@@ -1,14 +1,15 @@
 
-//color schemes:*/
-//#C5C1C0 screen*/
-//#0A1612 steel*/
-//#1A2930 denim*/
-//#F7CE3E marigold*/
+/*color schemes:
+#C5C1C0 screen
+#0A1612 steel
+#1A2930 denim
+#F7CE3E marigold*/
 
 body {
   background-color: #C5C1C0;
   max-width: 100%;
   text-align: center;
+  font-family: 'Bellefair', serif;
 }
 
 /*.nav {
