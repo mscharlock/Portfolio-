@@ -1,8 +1,9 @@
-/*color schemes:*/
-/*#C5C1C0 screen*/
-/*#0A1612 steel*/
-/*#1A2930 denim*/
-/*#F7CE3E marigold*/
+
+//color schemes:*/
+//#C5C1C0 screen*/
+//#0A1612 steel*/
+//#1A2930 denim*/
+//#F7CE3E marigold*/
 
 body {
   background-color: #C5C1C0;
@@ -11,7 +12,7 @@ body {
 }
 
 /*.nav {
-  width: 100%;
+width: 100%;
 }*/
 
 .myNav li {
