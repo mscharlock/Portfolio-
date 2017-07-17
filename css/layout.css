@@ -1,4 +1,11 @@
-@media only screen and (min-width: 640px) {
+/*color schemes:
+#C5C1C0 screen
+#0A1612 steel
+#1A2930 denim
+#F7CE3E marigold*/
+
+
+  @media only screen and (min-width: 640px) {
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
     float: none;
