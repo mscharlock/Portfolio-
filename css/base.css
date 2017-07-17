@@ -1,4 +1,3 @@
-
 /*color schemes:
 #C5C1C0 screen
 #0A1612 steel
@@ -6,8 +5,23 @@
 #F7CE3E marigold*/
 
 body {
+  color: #0A1612;
   background-color: #C5C1C0;
   max-width: 100%;
   text-align: center;
+  margin: auto;
   font-family: 'Bellefair', serif;
 }
+
+footer {
+  background-color: #F7CE3E
+  height: 20px;
+}
+
+.main-nav {
+  font-size: 30px;
+}
+
+.main-nav li {
+  display: inline-block;
+s}

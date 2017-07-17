@@ -1,30 +1,25 @@
 'use strict'
 
-var myProjects = [];
+var projects = [];
 
-function projWheel(rawDataObj) {
-  this.projThumbnail = rawDataObj.projThumbnail;
-  this.projUrl = rawDataObj.projUrl;
+function Project(rawDataObj) {
   this.title = rawDataObj.title;
-  myProjects.push(this);
+  this.projUrl = rawDataObj.projUrl;
+  this.image = rawDataObj.image;
+  this.category = rawDataObj.category;
+  this.completedOn = rawDataObj.completedOn;
 }
 
-projWheel.prototype.toHtml = function() {
-  var $newmyProjects = $('proj').clone();
-  $newmyProjects.removeClass('proj');
-}
+Project.prototype.toHtml = function() {
+  var myprojectsList = $('#myprojectsList-template').html();
+  var compile = Handlebars.compile(myprojectsList);
+  return compile(this)
+};
 
-if (!this.title) $newmyProjects.addClass('draft');
-$newmyProjects.data('category', this.category);
+rawData.forEach(function(projectObject){
+  projects.push(new Project(projectObject));
+});
 
-$newmyProjects.find('h1').html(this.title);
-$newmyProjects.find('a').html(this.projThumbnail);
-$newmyProjects.find('a').attr('href', this.projUrl);
-
-
-
-
-
-
-
-projWheel();
+projects.forEach(function(Project) {
+  $('#articles').append(Project.toHtml());
+});

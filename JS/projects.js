@@ -2,18 +2,24 @@
 
 var rawData = [
   {
-    projThumbnail: 'imgs/Salmon Cookies.png',
-    projUrl: 'https://arn1313.github.io/cookie-stand/index.html',
-    title: 'Salmon Cookie'
-  },
-  {
-    projThumbnail: 'imgs/Bus-Mall.png',
-    projUrl: 'https://arn1313.github.io/bus-mall/index.html',
     title: 'Bus Mall'
+    image: 'imgs/Bus-Mall.png',
+    projUrl: 'https://arn1313.github.io/bus-mall/index.html',
+    completedOn: '2017-06-25',
+    category: 'ProductReview'
   },
   {
-    projThumbnail: 'imgs/Verve.png',
+    title: 'Salmon Cookie'
+    image: "imgs/Salmon Cookies.png",
+    projUrl: 'https://arn1313.github.io/cookie-stand/index.html',
+    completedOn: '2017-06-19',
+    category: 'Store-Data'
+  },
+  {
+    image: 'imgs/Verve.png',
     projUrl: 'https://github.com/GavinThomas1192/201-Final-Project',
-    title: 'Verve.'
+    title: 'Verve.',
+    completedOn: '2017-06-30',
+    category: 'Journal',
   }
 ]
