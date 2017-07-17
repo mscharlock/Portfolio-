@@ -8,7 +8,7 @@ $(document).ready(function(){
       $('.list').slideToggle();
     });
     $('#articles').hide();
-    $('.showpro').click(function() {
+    $('.projects').click(function() {
       if($('#articles').is(":hidden")) {
         $('#articles').slideDown("slow");
       } else {
