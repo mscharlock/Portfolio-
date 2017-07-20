@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arn1313/Portfolio-.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Aaron McPeek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arn1313/Portfolio-/issues"
+  },
+  "homepage": "https://github.com/arn1313/Portfolio-#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
