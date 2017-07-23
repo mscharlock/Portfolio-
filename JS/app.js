@@ -13,17 +13,21 @@ function Project(rawDataObj) {
 Project.prototype.toHtml = function() {
   var myprojectsList = $('#myprojectsList-template').html();
   var compiled = Handlebars.compile(myprojectsList);
-  return compiled(this)
+  // return compiled(this) //MS: I don't think you need to return anything here - you just need to have the compiled stuff append?//
 };
 
 
 projects.forEach(function(Project) {
-  $('#articles').append(Project.toHtml());
+  $('#').append(Project.toHtml()); //MS: Make the # refer to something in your Projects area//
 });
-console.log('is this thing on');
+//MS: I think I would space out the below differently, like I've done below? Might make it less confusing and easier to debug?//
+
+// console.log('is this thing on');
 function hideSections(){
   $('#main').siblings().hide();
 }
+
+
 function handleNav(){
   $('#navbut').on('click', 'button',
   function(){
@@ -32,7 +36,6 @@ function handleNav(){
     $('#' + $(this).html()).show();
   })
 }
-
 
 
 handleNav();
